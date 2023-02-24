@@ -1,0 +1,305 @@
+*{
+    background-color: black;
+    scroll-behavior: smooth;
+}
+.G271{
+  font-family: sans-serif;  
+  color: red;
+  /* width: 1920px;
+  margin-left: 40%; */
+  font-size: 80px;
+  text-align: center;
+  
+}
+.hrG271{
+   
+    background-color: red;
+}
+.img1{
+    margin-left: auto;
+    width: 500px;
+}
+/* .img1:hover{
+    animation-name: MSILogo;
+    animation-duration: 10s;
+
+    
+}
+@keyframes MSILogo {
+    100% {margin-left: 50%;}
+} */
+.imgs img{
+    width:567px;
+}
+
+button {
+    color: red;
+    border-color: white;
+    border-radius: 10px;
+    width: 50px;
+    margin-left:50%;
+    transition: 0.2s;
+    
+    
+}
+button a {
+    text-decoration: none;
+    color:red;
+    
+}
+button:hover{
+    background-color: red;
+    color: black;
+    text-decoration: none;
+    text-decoration-color: red;
+    
+    
+}
+
+
+button a:hover{
+    background-color: white;
+    color: red;
+    
+}
+.Button p{
+    margin-left: 50.3%;
+   width: 200px;
+    transition: 1s;
+    align-self: center;
+    
+}
+.Button p:hover{
+    color: red;
+    
+}
+
+.one {
+    color: red;
+    font-family: sans-serif;
+}
+.spec{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.spec li:hover{
+color: red;
+font-size: 25px;
+}
+.spec li a:hover{
+    color: red;
+    font-size: 25px;
+}
+
+ul{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+}
+li a:hover{
+    color: red;
+    
+        font-size: 18px;
+}
+/* ul:hover{
+    animation:ui 1s ;
+}
+@keyframes ui{
+    from{color: white;}
+    to{color: red;} */
+li{
+    text-decoration: none;
+    transition: 1s ;
+    width: 600px;
+}
+    li:hover{
+        padding-left: 10px; 
+        font-size: 18px;
+        color: red;
+    
+    /* animation: name duration timing-function delay iteration-count direction fill-mode;     */
+}
+::marker{
+    color: red;
+}
+
+
+.ips{
+    opacity: 0;
+    transition: 1s;
+    margin-bottom: 0;
+}
+
+.ips:hover{
+    margin-bottom: 2%;
+    opacity: 1;
+}
+
+.ips img{
+    
+    width: fit-content;
+}
+.ips h1{
+    font-family: sans-serif;
+    color: red;
+    transition: 1s;
+    font-size: 300%;
+    
+}
+
+
+
+/* @media (prefers-reduced-motion: no-preference) {
+    .ips:hover {
+      animation-name: wipe-enter;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+     
+     
+    }
+  }
+  @keyframes wipe-enter {
+	from{margin-bottom: 0%;}
+    to{margin-bottom: 2%;}
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+ */
+
+.inch{
+    opacity: 0;
+    transition: 1s;
+    margin-bottom: 0%;
+}
+.inch img{
+    width: 1920px;
+    margin-left: -5%;
+    
+}
+.inch h1{
+    font-family: sans-serif;
+    color: red;
+    transition: 1s;
+    font-size: 300%;
+    
+}
+.inch h1 span{
+    font-family: sans-serif;
+    color: white;
+    transition: 1s;
+    font-size: 200%;
+}
+.inch:hover{
+    opacity: 1;
+    margin-bottom: 2%;
+}
+
+
+.hz{
+    opacity: 0;
+    transition: 0.5s;
+    margin-left: -100%;
+}
+.hz img{
+    width: 1920px;
+    
+}
+.hz h1{
+    font-family: sans-serif;
+    color: red;
+    transition: 1s;
+    font-size: 300%;
+    
+    
+}
+.hz h1 span{
+    background-image: url(https://th.bing.com/th/id/R.95684545c3aa4f85cb1530d0a22ae5c3?rik=nnHX5lWrfMBvUA&riu=http%3a%2f%2fwww.clker.com%2fcliparts%2fr%2fV%2fQ%2fl%2ff%2f0%2flightning-red-hi.png&ehk=%2bpG6g7NfMqFYm%2fyRDtOnQQ%2fl1QQwPGCkt3sYiMGlKpI%3d&risl=&pid=ImgRaw&r=0);
+    background-size: 51px;
+    
+    
+}
+.hz:hover{
+    opacity: 1;
+    margin-left: 0%;
+}
+
+
+
+
+.night{
+    opacity: 0;
+    transition: 1s;
+    margin-bottom: 0;
+}
+.night img{
+    width: 1000px;
+    margin-left: 23%;
+}
+
+
+.night h1{
+    font-family: sans-serif;
+    color: red;
+    transition: 1s;
+    font-size: 300%;
+
+    
+}
+.night:hover{
+    opacity: 1;
+    margin-bottom: 2%;
+}
+
+
+.wr{
+    opacity: 0;
+    transition: 3s;
+    margin-bottom: 0;
+}
+.wr img{
+    width: 550px;
+    
+}
+
+
+.wr h1{
+    font-family: sans-serif;
+    color: red;
+    transition: 1s;
+    font-size: 300%;
+
+    
+}
+.wr h1 span{
+    
+    font-size: 200%;
+    animation: three 1s ease-in-out infinite,
+     linear infinite;
+    
+    
+    
+}
+@keyframes three{
+    from{color: red;}
+    to{color: white;}
+    
+}
+.wr:hover{
+    opacity: 1;
+    margin-bottom: 2%;
+}
+.Name{
+    font-size: 100%;
+    font-family: sans-serif;
+    margin-right:0% ;
+    width: 15%;
+    
+}
