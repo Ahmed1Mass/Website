@@ -1,0 +1,104 @@
+*{
+    /* background-image: url(https://th.bing.com/th/id/R.8eb0fea4bad9dadb4f8aaf5cb6fca5e9?rik=jeIz2ebgZ5D3CA&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f2%2fe%2f7%2f1502054-amazing-cool-background-images-1920x1200-photos.jpg&ehk=iR4FG%2ftjH341E4HlmWJea5hQPkucQtEv3zLNYwt6TfM%3d&risl=&pid=ImgRaw&r=0); */
+    background-color: black;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+header{
+    border-bottom-color: white;
+}
+.img1{
+    margin-left: auto;
+    width: 250px;
+   
+}
+.help{
+    float: right;
+    color: white;
+    float: right;
+    font-size: 30px;
+    font-family: sans-serif;
+    background-color: transparent;
+}
+.Login{
+    text-decoration: none;
+    color: white;    
+    transition: 0.4s;
+    margin-right: 20px;
+   
+    
+}
+.Login:hover{
+    color: red;
+}
+.support{
+    text-decoration: none;
+    color: white;    
+    transition: 0.4s;
+    
+}
+.support:hover{
+    color: red;
+}
+.contact{
+    text-decoration: none;
+    color: white;    
+    transition: 0.4s;
+    margin-left: 20px;
+}
+.contact:hover{
+    color: red;
+}
+.Loginone{
+    background-color: transparent;
+}
+.form{
+    background-color: transparent;
+    backdrop-filter: blur(500px);
+    
+    
+}
+
+
+.Logintwo{
+    cursor: default;
+    text-align: center;
+    font-size: 60px;
+}
+.email{
+    border-radius: 10px;
+    border-color: white;
+    transition: 0.4s;
+    padding: 3px;
+}
+.email:hover{
+    border-color: red;
+    
+}
+.password{
+    border-radius: 10px;
+    border-color: white;
+    transition: 0.4s;
+    padding: 3px;
+}
+.password:hover{
+    border-color: red;
+}
+
+.submit{
+    border-radius: 10px;
+    border-color:white ;
+    transition: 1s;
+    text-decoration: none;
+}
+.submit a{
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+    width: auto;
+}
+.submit:hover{
+    background:red ;
+    width: 60px;
+}
+
