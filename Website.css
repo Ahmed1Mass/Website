@@ -271,12 +271,19 @@ li{
     opacity: 0;
     transition: 1s;
     margin-bottom: 0;
-    
+    filter: saturate(100%);
 }
 
 .ips:hover{
     margin-bottom: 2%;
     opacity: 1;
+	animation-name: ipan;
+    animation-duration: 3.2s;
+}
+
+@keyframes ipan{
+    from{filter: saturate(0);}
+    to{filter: saturate(100%);}
 }
 
 .ips img{
