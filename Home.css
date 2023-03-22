@@ -921,6 +921,7 @@ width: 240px;
 #nn:hover{
     box-shadow: 0 0 15px red;
     border-color: red;
+    border-radius:50px 50px 0 50px;
 }
 .Name:hover{
     opacity: 1;
