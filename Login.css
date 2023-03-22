@@ -9,16 +9,39 @@
 header{
     border-bottom-color: white;
 }
+.headerhr{
+    opacity: 0.1;
+}
 br{
     background-color: red;
 }
 .img1{
     margin-left: auto;
     width: 250px;
+    background-color: transparent;
    
 }
 .account{
     font-size: 60px;
+    color: gray;
+    background-color: transparent;
+    font-family: sans-serif;
+    animation-name: account;
+    animation-duration: 1.5s;
+    cursor: default;
+    font-weight: bold;
+}
+@keyframes account{
+    from{
+        margin-left: -80px;
+        opacity: 0;
+        color: white;
+    }
+    to{
+        margin-left: 0px;
+        opacity: 1;
+        color: gray;
+    }
 }
 .help{
     float: right;
@@ -70,21 +93,68 @@ br{
 }
 .form{
     background-color: transparent;
-
+    animation-name: form;
+    animation-duration: 1.5s;
+    margin-top: 25px;
+}
+@keyframes form{
+    from{opacity: 0; margin-top: -2px;}
+    to{opacity: 1; margin-top: 25px;}
+    
 }
 
 .Logo{
     width: 10%;
-    
+    transition: 5s;
+    opacity: 5;
+    animation: Logo 5s linear infinite;
+    background-color: transparent;
 }
+.alllogin{
+    border-color: white;
+    border-style: double;
+    border: 5px;
+}
+/* @keyframes Logo{
+    from{opacity: 0.5;}
+    to{opacity: 1; }
+    from{opacity: 0.5;}
+    to{opacity: 1;}
+} */
 .Logintwo{
     cursor: default;
     text-align: center;
     font-size: 60px;
     background-color: transparent;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     color: white;
+}
+.signup{
+    color: white;
+    font-size: 15px;
+    margin-bottom: 2px;
+    display: block;
+    animation-name: signupp;
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+    opacity: 0.5;
+    transition: 0.8s;
+    cursor: default;
+    width: fit-content;
+}
+
+@keyframes signupp{
+    from{opacity: 0; font-size: 20px; }
+    to{ opacity: 0.5; font-size: 15px;}
+}
+.signup:hover{
+    opacity: 1;
+    font-size: 18px;
+}
+.signup a{
+    color: red;
+    
 }
 .Logintwohr{
     width: 100px;
@@ -97,17 +167,25 @@ br{
     padding: 3px;
     background-color: black;
     color: white;
+    
 }
 .email::placeholder{
     color: white;
-    
+    opacity: 0.9;
 }
 .email::selection{
     color: red;
 }
+.email:focus{
+    border-color: red;
+    padding: 7px;
+    
+}
+
 .email:hover{
     border-color: red;
     padding: 7px;
+    
 }
 .password{
     border-radius: 10px;
@@ -119,13 +197,34 @@ br{
 }
 .password::placeholder{
     color: white;
+    opacity: 0.9;
 }
 .password::selection{
     color: red;
 }
+.password:focus{
+    border-color: red;
+    padding: 7px;
+    
+}
+
 .password:hover{
     border-color: red;
     padding: 7px;
+}
+.fp{
+    text-align: left;
+    font-size: 15px;
+    
+}
+a.fp{
+    color: white;
+    transition: 0.4s;
+    text-decoration: none;
+}
+a.fp:hover{
+    color: red;
+    text-decoration: underline;
 }
 
 .submit{
@@ -136,6 +235,7 @@ br{
     color: white;
     padding-left: 5px;
     padding-right: 5px;
+    margin-right: 10px;
     
 }
 .submit a{
