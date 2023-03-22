@@ -1,0 +1,311 @@
+*{
+    /* background-image: url(https://cdn.wallpapersafari.com/0/86/wjaGF0.jpg); 
+    background-size: 1920px; */
+    
+   background-color: black;
+   scroll-behavior: smooth;
+   font-family: sans-serif;
+}
+header{
+   border-bottom-color: white;
+}
+.headerhr{
+   opacity: 0.1;
+}
+br{
+   background-color: red;
+}
+body{
+   overflow-y: hidden;
+   overflow-x: hidden;
+}
+.img1{
+   margin-left: auto;
+   width: 250px;
+   background-color: transparent;
+  
+}
+.account{
+   font-size: 60px;
+   color: gray;
+   background-color: transparent;
+   font-family: sans-serif;
+   animation-name: account;
+   animation-duration: 1.5s;
+   font-weight: bold;
+}
+@keyframes account{
+   from{
+       margin-left: -80px;
+       opacity: 0;
+       color: white;
+   }
+   to{
+       margin-left: 0px;
+       opacity: 1;
+       color: gray;
+   }
+}
+.help{
+   float: right;
+   color: white;
+   float: right;
+   font-size: 30px;
+   font-family: sans-serif;
+   background-color: transparent;
+}
+.Login{
+   text-decoration: none;
+   color: white;    
+   transition: 0.4s;
+   margin-right: 20px;
+   
+}
+.Login:hover{
+   color: red;
+   margin-right: 30px;
+}
+.support{
+   text-decoration: none;
+   color: white;    
+   transition: 0.4s;
+   
+}
+.support:hover{
+   color: red;
+   margin-right: 12px;
+}
+.contact{
+   text-decoration: none;
+   color: white;    
+   transition: 0.4s;
+   margin-left: 20px;
+}
+.contact:hover{
+   color: red;
+   margin-right: 6px;
+}
+.Loginone{
+   background-color: transparent;
+}
+.labelone{
+   border-color: white;
+   border-radius: 5%;
+   
+   width: 50px;
+}
+.form{
+   background-color: transparent;
+   animation-name: form;
+   animation-duration: 1.5s;
+   margin-top: 25px;
+}
+@keyframes form{
+   from{opacity: 0; margin-top: -2px;}
+   to{opacity: 1; margin-top: 25px;}
+   
+}
+
+.Logo{
+   width: 10%;
+   transition: 5s;
+   opacity: 5;
+   animation: Logo 5s linear infinite;
+   
+}
+/* @keyframes Logo{
+   from{opacity: 0.5;}
+   to{opacity: 1; }
+   from{opacity: 0.5;}
+   to{opacity: 1;}
+} */
+.welcome{
+    color: white;
+    font-size: 50px;
+    width: fit-content;
+    cursor: default;
+}
+.welcome .ww{
+    animation-name: ww;
+    animation-duration: 1.2s;
+    color: red;
+    font-size: 50px;
+}
+@keyframes ww{
+    from{color:white; font-size:30px;}
+    to{color: red; font-size: 50px;}
+}
+.welcome img{
+    width: 150px;
+}
+.welcomehr{
+    width: 655px;
+    opacity: 0.1;
+    animation-name: whr;
+    animation-duration: 1.2s;
+}
+@keyframes whr{
+   from{opacity: 1; width:900px;}
+   to{opacity: 0.1; width: 655px;}
+}
+.signuptwo{
+   cursor: default;
+   text-align: center;
+   font-size: 60px;
+   background-color: transparent;
+   margin-top: 20px;
+   margin-bottom: 15px;
+   color: white;
+}
+.signup{
+   color: white;
+   font-size: 15px;
+   margin-bottom: 2px;
+   display: block;
+   animation-name: signupp;
+   animation-duration: 1.5s;
+   animation-delay: 0s;
+   opacity: 0.5;
+   transition: 0.8s;
+   cursor: default;
+}
+
+@keyframes signupp{
+   from{opacity: 0; font-size: 20px; }
+   to{ opacity: 0.5; font-size: 15px;}
+}
+.signup:hover{
+   opacity: 1;
+   font-size: 18px;
+}
+.signup a{
+   color: red;
+   
+}
+.Logintwohr{
+   width: 100px;
+   
+}
+.email{
+   border-radius: 10px;
+   border-color: white;
+   transition: 0.4s;
+   padding: 3px;
+   background-color: black;
+   color: white;
+
+}
+.email::placeholder{
+   color: white;
+   opacity: 0.9;
+}
+.email::selection{
+   color: red;
+}
+.email:focus{
+   border-color: red;
+   padding: 7px;
+   
+}
+
+.email:hover{
+   border-color: red;
+   padding: 7px;
+   
+}
+.password{
+   border-radius: 10px;
+   border-color: white;
+   transition: 0.4s;
+   padding: 3px;
+   background-color: black;
+   color: white;
+   
+}
+.password::placeholder{
+   color: white;
+   opacity: 0.9;
+}
+.password::selection{
+   color: red;
+}
+.password:focus{
+   border-color: red;
+   padding: 7px;
+   
+}
+
+.password:hover{
+   border-color: red;
+   padding: 7px;
+}
+
+.date{
+    border-radius: 10px;
+    border-color: white;
+    transition: 0.4s;
+    padding: 3px;
+    background-color: black;
+    color: white;
+    
+ }
+ .date::placeholder{
+    color: white;
+    opacity: 0.9;
+ }
+ .date::selection{
+    color: red;
+    background-color: black;
+ }
+ .date:focus{
+    border-color: red;
+    padding: 7px;
+    
+}
+
+.date:hover{
+    border-color: red;
+    padding: 7px;
+} 
+
+.submit{
+   border-radius: 10px;
+   border-color:white ;
+   transition: 0.2s;
+   text-decoration: none;
+   color: white;
+   padding-left: 5px;
+   padding-right: 5px;
+   
+}
+.submit a{
+   text-decoration: none;
+   color: white;
+   transition: 1s;
+   width: auto;
+   
+   
+}
+.submit:hover{
+   border-color: red;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
+
+.reset{
+   border-radius: 10px;
+   border-color:white ;
+   transition: 0.2s;
+   text-decoration: none;
+   color: white;
+   padding-left: 5px;
+   padding-right: 5px;
+   margin-left: 5px;
+}
+.reset:hover{
+   border-color: red;
+   width: 60px;
+   padding-left: 10px;
+   padding-right: 10px;
+}
