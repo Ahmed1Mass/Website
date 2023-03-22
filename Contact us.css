@@ -1,0 +1,255 @@
+*{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+
+header{
+    border-bottom-color: white;
+}
+.headerhr{
+    opacity: 0.1;
+}
+br{
+    background-color: red;
+}
+.img1{
+    margin-left: auto;
+    width: 250px;
+    background-color: transparent;
+   
+}
+.account{
+    font-size: 60px;
+    color: gray;
+    background-color: transparent;
+    font-family: sans-serif;
+    animation-name: account;
+    animation-duration: 1.5s;
+    cursor: default;
+    
+}
+@keyframes account{
+    from{
+        margin-left: -80px;
+        opacity: 0;
+        color: white;
+    }
+    to{
+        margin-left: 0px;
+        opacity: 1;
+        color: gray;
+    }
+}
+.help{
+    float: right;
+    color: white;
+    float: right;
+    font-size: 30px;
+    font-family: sans-serif;
+    background-color: transparent;
+}
+.Login{
+    text-decoration: none;
+    color: white;    
+    transition: 0.4s;
+    margin-right: 20px;
+    
+}
+.Login:hover{
+    color: red;
+    margin-right: 30px;
+}
+.support{
+    text-decoration: none;
+    color: white;    
+    transition: 0.4s;
+    
+}
+.support:hover{
+    color: red;
+    margin-right: 12px;
+}
+/* .contact{
+    text-decoration: none;
+    color: white;    
+    transition: 0.4s;
+    margin-left: 20px;
+}
+.contact:hover{
+    color: red;
+    margin-right: 6px;
+} */
+/* ///////////////// */
+.Logo{
+    width: 10%;
+    transition: 5s;
+    opacity: 5;
+    animation: Logo 5s linear infinite;
+    background-color: transparent;
+}
+
+.contactus{
+    text-align: center;
+    font-size: 50px;
+    animation-name: c;
+    animation-duration: 1s;
+    color: white;
+    height: fit-content;
+    cursor: default;
+    font-weight: bold;
+}
+@keyframes c{
+    from{color: red; opacity: 0;}
+    to{color: white; opacity: 1;}
+}
+.contactus span{
+    color: red;
+    animation-name: cs;
+    animation-duration: 1.5s;
+    background-color: transparent;
+}
+@keyframes cs{
+    from{color: white;}
+    to{color: red;}
+}
+.contactushr{
+    width: 258px;
+    margin-top: -2%;
+    opacity: 0.5;
+    animation-name: cshr;
+    animation-duration: 2s;
+}
+@keyframes cshr{
+    from{width: 0px;}
+    to{width: 258px;}
+}
+
+
+
+.email{
+    border-radius: 10px;
+    border-color: white;
+    transition: 0.4s;
+    padding: 3px;
+    background-color: black;
+    color: white;
+    
+}
+.email::placeholder{
+    color: white;
+    opacity: 0.9;
+}
+.email::selection{
+    color: red;
+}
+.email:focus{
+    border-color: red;
+    padding: 7px;
+    
+}
+
+.email:hover{
+    border-color: red;
+    padding: 7px;
+    
+}
+.password{
+    border-radius: 10px;
+    border-color: white;
+    transition: 0.4s;
+    padding: 3px;
+    background-color: black;
+    color: white;
+}
+.password::placeholder{
+    color: white;
+    opacity: 0.9;
+}
+.password::selection{
+    color: red;
+}
+.password:focus{
+    border-color: red;
+    padding: 7px;
+    
+}
+
+.password:hover{
+    border-color: red;
+    padding: 7px;
+}
+
+
+.mssge{
+    border-radius: 10px;
+    border-color: white;
+    transition: 0.4s;
+    padding: 3px;
+    background-color: black;
+    color: white;
+    height: 30px;
+}
+.mssge::placeholder{
+    color: white;
+    opacity: 0.9;
+    text-align: center;
+}
+.mssge::selection{
+    color: red;
+}
+.mssge:focus{
+    border-color: red;
+    padding: 7px;
+    
+}
+
+.mssge:hover{
+    border-color: red;
+    padding: 7px;
+}
+
+
+.submit{
+    border-radius: 10px;
+    border-color:white ;
+    transition: 0.2s;
+    text-decoration: none;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 10px;
+    
+}
+.submit a{
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+    width: auto;
+    
+}
+.submit:hover{
+    border-color: red;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.reset{
+    border-radius: 10px;
+    border-color:white ;
+    transition: 0.2s;
+    text-decoration: none;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.reset:hover{
+    border-color: red;
+    width: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
