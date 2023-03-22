@@ -14,6 +14,16 @@ header.visible{
 header.hidden{
     top: -100px;
 }
+.headerhr{
+    opacity: 0.1;
+    width: 100%;
+}
+body{
+    overflow-x: hidden;
+}
+hr{
+    opacity: 0.1;
+}
 .help{
     float: right;
     color: white;
@@ -57,21 +67,48 @@ header.hidden{
 }
 
 .G271{
-  font-family: sans-serif;  
-  color: red;
-  /* width: 1920px;
+    font-family: sans-serif;  
+    color: white;
+    /* width: 1920px;
   margin-left: 40%; */
-  font-size: 80px;
-  text-align: center;
-  
-  
+    font-size: 80px;
+    text-align: center;
+    animation-name: g271;
+    animation-duration: 2s;
+    cursor: default;
+}
+.G271 span{
+    font-family: sans-serif;  
+    color: red;
+    /* width: 1920px;
+  margin-left: 40%; */
+    font-size: 80px;
+    text-align: center;
+    animation-name: g2711;
+    animation-duration: 2.5s;
+}
+@keyframes g271{
+    from{color: red; font-size: 70px;}
+    to{color: white; font-size: 80px;}
+}
+@keyframes g2711{
+    from{color: white; font-size: 70px;}
+    to{color: red; font-size: 80px;}
 }
 .G271 img{
     width: 300px;
 }
 .hrG271{
-   
+    width: 744px;
     background-color: red;
+    opacity: 0.2;
+    margin-top: -50px;
+    animation-name: ghr;
+    animation-duration: 1s;
+}
+@keyframes ghr{
+    from{opacity: 1; margin-top: -20px; width: 0px;}
+    to{opacity: 0.1; margin-top: -50px; width: 744px;}
 }
 .img1{
     width: 260px;
@@ -86,17 +123,26 @@ header.hidden{
 @keyframes MSILogo {
     100% {margin-left: 50%;}
 } */
+.imgs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .imgs img{
-    width: 570px;
-    
+    width: 550px;
+    transition: 0.5s;
+    border-radius: 30px;
+}
+.imgs img:hover{
+    box-shadow: 0 0 25px white;
     
 }
-.img2{
+/* .img2{
     float: left;
 }
 .img4{
     float: right;
-}
+} */
 
 
 button {
@@ -111,7 +157,9 @@ button {
 }
 button a {
     text-decoration: none;
-    color:red;
+    color:white;
+    background-color: transparent;
+    transition: 0.8s;
     
 }
 button:hover{
@@ -119,31 +167,43 @@ button:hover{
     color: black;
     text-decoration: none;
     text-decoration-color: red;
-    
-    
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 
 button a:hover{
-    background-color: white;
-    color: red;
+    background-color: transparent;
+    color: black;
     
 }
 .Button p{
     margin-left: 50.3%;
-   width: 200px;
+    width: 200px;
     transition: 1s;
     align-self: center;
+    color: white;
     
 }
 .Button p:hover{
     color: red;
     
 }
+.Button .bb:hover .price{
+    display: block;
+}
 
 .one {
-    color: red;
+    color: white;
     font-family: sans-serif;
+    text-align: center;
+    font-size: 50px;
+    cursor: default;
+}
+.onehr{
+    opacity: 0.6;
+    width: 300px;
+    margin-top: -1%;
 }
 .spec{
     color: white;
@@ -160,6 +220,12 @@ font-size: 25px;
     color: red;
     font-size: 25px;
 }
+.list-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
 
 ul{
     color: white;
@@ -169,12 +235,12 @@ ul{
 li a{
     text-decoration: none;
     color: white;
-    transition: 1s;
+    transition: 0.5s;
 }
 li a:hover{
     color: red;
     
-    font-size: 18px;
+    font-size: 30px;
 }
 /* ul:hover{
     animation:ui 1s ;
@@ -184,11 +250,13 @@ li a:hover{
     to{color: red;} */
 li{
     text-decoration: none;
-    transition: 1s ;
-    width: 600px;
+    transition: 0.5s ;
+    width: fit-content;
+
 }
     li:hover{
-        padding-left: 10px; 
+        padding-left: 10px;
+
         font-size: 18px;
         color: red;
     
@@ -222,6 +290,16 @@ li{
     font-size: 300%;
     
 }
+.ips h1 span{
+    color: white;
+    text-shadow: 0 0 10px red,
+    0 0 20px blue,
+    0 0 30px orangered,
+    0 0 40px violet;
+    
+}
+
+
 
 
 
@@ -244,12 +322,12 @@ li{
 
 .inch{
     opacity: 0;
-    transition: 1s;
+    transition: 0.5s;
     margin-bottom: 0%;
 }
 .inch img{
-    width: 1920px;
-    margin-left: -5%;
+    width: 100%;
+    /* margin-left: -5%; */
     
 }
 .inch h1{
@@ -288,12 +366,12 @@ li{
     
     
 }
-.hz h1 span{
+/* .hz h1 span{
     background-image: url(https://th.bing.com/th/id/R.95684545c3aa4f85cb1530d0a22ae5c3?rik=nnHX5lWrfMBvUA&riu=http%3a%2f%2fwww.clker.com%2fcliparts%2fr%2fV%2fQ%2fl%2ff%2f0%2flightning-red-hi.png&ehk=%2bpG6g7NfMqFYm%2fyRDtOnQQ%2fl1QQwPGCkt3sYiMGlKpI%3d&risl=&pid=ImgRaw&r=0);
     background-size: 51px;
     
     
-}
+} */
 .hz:hover{
     opacity: 1;
     margin-left: 0%;
@@ -309,7 +387,7 @@ li{
 }
 .night img{
     width: 1000px;
-    margin-left: 23%;
+    
 }
 
 
@@ -331,11 +409,19 @@ li{
     opacity: 0;
     transition: 3s;
     margin-bottom: 0;
-}
-.wr img{
-    width: 550px;
     
 }
+.wr #imgs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wr #imgs img{
+    width: 550px;
+    border-radius: 10px;
+
+}
+
 
 
 .wr h1{
@@ -347,28 +433,34 @@ li{
     
 }
 .wr h1 span{
-    
     font-size: 200%;
     animation: three 1s ease-in-out infinite,
-     linear infinite;
-    
-    
-    
+    linear infinite;
+    color: white;
+    text-shadow: 0 0 10px white;
 }
-@keyframes three{
+/* @keyframes three{
     from{color: red;}
     to{color: white;}
     
-}
+} */
 .wr:hover{
     opacity: 1;
     margin-bottom: 2%;
 }
+footer{
+    height: fit-content;
+
+}
 .footer .msi{
-    font-family: sans-serif;
-    width: 15%;
-    float: left;
-    
+float: left;
+color: white;
+font-family: sans-serif;
+opacity: 0.5;
+width: 240px;
+}
+.footer .msi span img{
+    width: 50px;
 }
 .Name{
     font-size: 100%;
@@ -376,4 +468,6 @@ li{
     width: 15%;
     float: right;
     margin: auto;
+    color: white;
+    opacity: 0.5;
 }
